@@ -1,0 +1,11 @@
+.cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.cadastro input{
+    border-radius: 5px;
+}

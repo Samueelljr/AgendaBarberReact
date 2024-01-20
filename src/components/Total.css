@@ -1,0 +1,46 @@
+.total h2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+}
+
+
+.total button {
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    display: inline-block;
+    cursor: pointer;
+    border: solid 1px black;
+    transition: background-color 10ms;
+
+    padding: 5px 16px;
+    font-weight: 500;
+    line-height: 20px;
+
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+
+.total button:hover {
+    background-color: antiquewhite;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    max-width: 400px;
+
+}
+
+.total button:disabled {
+    background-color: #c7c7c7;
+    color: #000000;
+    opacity: .6;
+}
